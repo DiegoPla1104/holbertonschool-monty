@@ -30,8 +30,6 @@ void push(char *argument)
 		new->next->prev = new;
 	monty.stack = new;
 }
-#include "monty.h"
-
 /**
  * pall - print all members
  * @stack: double list
